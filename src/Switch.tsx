@@ -10,7 +10,7 @@ const Switch: React.FC<SwitchProps<'div'>> = ({ checked, onChange }) => {
       <span className='sr-only'>Use setting</span>
       <span
         aria-hidden='true'
-        className='pointer-events-none inline-block h-[34px] w-[34px] transform rounded-full bg-white shadow-lg ring-0 transition duration-200 ease-in-out ui-checked:translate-x-9 ui-not-checked:translate-x-0'
+        className='pointer-events-none inline-block h-[34px] w-[34px] transform rounded-full bg-white shadow-lg ring-0 transition duration-200 ease-in-out ui-open:bg-purple-500 ui-checked:translate-x-9 ui-not-checked:translate-x-0'
       />
     </HeadlessSwitch>
   );
